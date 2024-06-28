@@ -1,0 +1,124 @@
+/* // Author
+// Sandeep Guggilla */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+
+  margin-top: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  margin: 20px 0;
+}
+
+form input,
+form select,
+form button {
+  margin: 0 10px;
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #1890ff;
+  color: white;
+
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #40a9ff;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.ant-card {
+  width: 80%;
+  max-width: 800px;
+
+  margin: 10px 0;
+}
+
+.ant-card-inner {
+  margin: 10px 0;
+  padding: 10px;
+
+  background-color: #f0f0f0;
+
+  border-radius: 5px;
+}
+
+.ant-card-inner p {
+  margin: 0;
+
+  font-size: 14px;
+}
+
+.ant-card-head {
+  background-color: #fafafa;
+
+}
+
+.ant-card-head-title {
+  font-size: 18px;
+
+  font-weight: bold;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+
+  border-color: #1890ff;
+}
+
+.ant-btn-primary:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.ant-btn-danger {
+  background-color: #ff4d4f;
+  border-color: #ff4d4f;
+}
+
+.ant-btn-danger:hover {
+  background-color: #ff7875;
+  border-color: #ff7875;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+
+  background-color: #1890ff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  background-color: #40a9ff;
+}
