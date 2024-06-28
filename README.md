@@ -13,5 +13,7 @@ npm start
 
 FOR SERVER -
 
+commands -
+
 npm install
 node index.js 
